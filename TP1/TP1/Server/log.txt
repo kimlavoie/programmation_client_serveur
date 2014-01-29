@@ -1,0 +1,36 @@
+[Wed Jan 15 13:56:10 EST 2014]   Connection established
+[Wed Jan 15 13:56:10 EST 2014]   Connection established
+[Wed Jan 15 13:56:10 EST 2014]   Connection established
+[Wed Jan 15 13:56:13 EST 2014]   Sending result: qmanTest3: This is a test
+[Wed Jan 15 13:56:13 EST 2014]   Processing finished successfully
+[Wed Jan 15 13:56:13 EST 2014]   
+[Wed Jan 15 13:56:15 EST 2014]   Sending result: qmanTest2
+[Wed Jan 15 13:56:15 EST 2014]   Processing finished successfully
+[Wed Jan 15 13:56:15 EST 2014]   
+[Wed Jan 15 13:56:17 EST 2014]   Sending result: qmanTest1
+[Wed Jan 15 13:56:17 EST 2014]   Processing finished successfully
+[Wed Jan 15 13:56:17 EST 2014]   
+[Wed Jan 22 14:23:36 EST 2014]   Connection established
+[Wed Jan 22 14:23:36 EST 2014]   Connection established
+[Wed Jan 22 14:23:36 EST 2014]   Connection established
+[Wed Jan 22 14:23:38 EST 2014]   Sending result: qmanTest3: This is a test
+[Wed Jan 22 14:23:38 EST 2014]   Processing finished successfully
+[Wed Jan 22 14:23:38 EST 2014]   
+[Wed Jan 22 14:23:40 EST 2014]   Sending result: qmanTest2
+[Wed Jan 22 14:23:40 EST 2014]   Processing finished successfully
+[Wed Jan 22 14:23:40 EST 2014]   
+[Wed Jan 22 14:23:42 EST 2014]   Sending result: qmanTest1
+[Wed Jan 22 14:23:42 EST 2014]   Processing finished successfully
+[Wed Jan 22 14:23:42 EST 2014]   
+[Wed Jan 29 13:02:26 EST 2014]   Connection established
+[Wed Jan 29 13:02:26 EST 2014]   Connection established
+[Wed Jan 29 13:02:26 EST 2014]   Connection established
+[Wed Jan 29 13:02:29 EST 2014]   Sending result: qmanTest3: This is a test
+[Wed Jan 29 13:02:29 EST 2014]   Processing finished successfully
+[Wed Jan 29 13:02:29 EST 2014]   
+[Wed Jan 29 13:02:31 EST 2014]   Sending result: qmanTest2
+[Wed Jan 29 13:02:31 EST 2014]   Processing finished successfully
+[Wed Jan 29 13:02:31 EST 2014]   
+[Wed Jan 29 13:02:33 EST 2014]   Sending result: qmanTest1
+[Wed Jan 29 13:02:33 EST 2014]   Processing finished successfully
+[Wed Jan 29 13:02:33 EST 2014]   

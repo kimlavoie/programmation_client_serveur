@@ -1,0 +1,27 @@
+<project name="client" default="run">
+
+	<target name="clean">
+		<delete dir="build" />
+	</target>
+	
+	<target name ="compile">
+		<mkdir dir="build/classes" />
+		<javac classpath="../Common/build/classes" srcdir="src" destdir="build/classes" />
+	</target>
+	
+	<target name="runCLExample" depends="compile">
+	    <java fork="true" classpath="build/classes;../Common/build/classes" classname="client.CommandLineUserExample" >
+			<arg line="${args}" />
+		</java>
+	</target>
+	
+	<target name="runExample" depends="compile">
+	    <java fork="true" classpath="build/classes;../Common/build/classes" classname="client.UserExample" />
+	</target>
+	
+	<target name="doc" description="generate javadoc">
+		<mkdir dir="doc" />
+		<javadoc sourcepath="src;../Common/src" destdir="doc" packagenames="client.*,com.*"/>
+	</target>
+	
+</project>

@@ -1,0 +1,24 @@
+<project name="distributed system" default="compile">
+
+	<target name="clean">
+		<ant antfile="Common/build.xml" target="clean" useNativeBaseDir="true" />
+		<ant antfile="Client/build.xml" target="clean" useNativeBaseDir="true" />
+		<ant antfile="Server/build.xml" target="clean" useNativeBaseDir="true" />
+	</target>
+	
+	<target name ="compile">
+		<ant antfile="Common/build.xml" target="compile" useNativeBaseDir="true" />
+		<ant antfile="Client/build.xml" target="compile" useNativeBaseDir="true" />
+		<ant antfile="Server/build.xml" target="compile" useNativeBaseDir="true" />
+	</target>
+	
+	<target name="doc" description="generate javadoc">
+		<ant antfile="Common/build.xml" target="doc" useNativeBaseDir="true" />
+		<ant antfile="Client/build.xml" target="doc" useNativeBaseDir="true" />
+		<ant antfile="Server/build.xml" target="doc" useNativeBaseDir="true" />
+		
+		<mkdir dir="doc" />
+		<javadoc sourcepath="Client/src;Common/src;Server/src" destdir="doc" packagenames="com.*,client.*,server.*" Overview="doc/overview.html"/>
+	</target>
+
+</project>

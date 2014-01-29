@@ -1,0 +1,25 @@
+<project name="server" default="run">
+
+	<property name="args" value="" />
+
+	<target name="clean">
+		<delete dir="build" />
+	</target>
+	
+	<target name ="compile">
+		<mkdir dir="build/classes" />
+		<javac srcdir="src" destdir="build/classes" classpath="../Common/build/classes" />
+	</target>
+	
+	<target name="run" depends="compile">
+		<java fork="true" classpath ="build/classes; ../Common/build/classes" classname="server.Server">
+			<arg line="${args}" />
+		</java>
+	</target>
+	
+	<target name="doc" description="generate javadoc">
+		<mkdir dir="doc" />
+		<javadoc sourcepath="src;../Common/src" destdir="doc" packagenames="com.*,server.*"/>
+	</target>
+	
+</project>
